@@ -1,0 +1,68 @@
+{
+  "accounts": {
+    "h2_NewAccount": "New Account",
+    "recordType": "ENT and Reseller Account Record Type",
+    "accountCurrency": "USD - U.S. Dollar",
+    "accountSource": "Answers Scan",
+    "entityLabel" : "Account"
+  },
+  "contacts": {
+    "h2_NewAccount": "New Account",
+    "salutationText": "Mr.",
+    "language": "English",
+    "leadSource": "Answers Scan",
+    "entityLabel" : "Contact"
+  },
+  "opportunities": {
+    "h2_NewOpportunity": "New Opportunity",
+    "recordType": "ENT LC Opportunity",
+    "opportunityCurrency": "USD - U.S. Dollar",
+    "stage": "Business Alignment",
+    "dealType": "Full",
+    "renewal": "No",
+    "closeDate": "10/10/2025",
+    "pricingModel": "Capacity Pricing",
+    "entityLabel": "Opportunity"
+  },
+  "quote": {
+    "h2_NewQuote": "New Quote",
+    "recordType": "Quote Record Type",
+    "term": "12",
+    "paymentOption": "Wire Transfer",
+    "paymentTerms": "Net 30",
+    "billingPeriod": "Annual",
+    "startDate": "10/10/2025",
+    "pricingModel": "Capacity Pricing",
+    "entityLabel": "Quote"
+  },
+  "products": {
+    "product_Review_Monitoring": "Review Monitoring",
+    "product_Review_Response": "Review Response",
+    "product_Review_Generation": "Review Generation",
+    "quantity_Review_Monitoring": "10",
+    "quantity_Review_Response": "10",
+    "quantity_Review_Generation": "10",
+    "startDate": "10/10/2025",
+    "pricingModel": "Capacity Pricing"
+  },
+  "searchPage": {
+    "TH_Quotes": "Quotes",
+    "TH_Opportunities": "Opportunities",
+    "TH_Accounts": "Accounts",
+    "TH_Contacts": "Contacts",
+    "TH_Products": "Products",
+    "TH_Leads": "Leads",
+    "TH_Cases": "Cases",
+    "TH_Assets": "Assets",
+    "TH_Users": "Users",
+    "TH_Reports": "Reports",
+    "TH_Dashboards": "Dashboards",
+    "TH_Orders": "Orders",
+    "TH_Campaigns": "Campaigns",
+    "TH_Notes": "Notes",
+    "TH_Events": "Events",
+    "TH_Activities": "Activities",
+    "TH_Contracts": "Contracts",
+    "TH_Approvals": "Approvals"
+  }
+}

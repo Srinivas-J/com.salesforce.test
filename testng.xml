@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Salesforce Test Suite" parallel="false">
+    <listeners>
+        <listener class-name="listeners.CustomReportingListener"/>
+    </listeners>
+
+    <test name="Environment Setup Tests">
+        <classes>
+            <class name="testcases.TestSetup"/>
+        </classes>
+    </test>
+
+    <test name="Account to Quote Workflow Tests">
+        <classes>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.AccountsTest"/>
+            <class name="testcases.ContactsTest"/>
+            <class name="testcases.OpportunitiesTest"/>
+            <class name="testcases.QuoteTest"/>
+            <class name="testcases.LogoutTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Functionality Tests">
+        <classes>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.QuoteProductsTest"/>
+            <class name="testcases.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
